@@ -46,6 +46,7 @@ const TECH_STACK: TechBadge[] = [
 ];
 
 const FOOTER_LINKS = [
+  { label: 'Docs', href: 'https://docs.projectcontinuum.org', external: true },
   { label: 'GitHub Org', href: 'https://github.com/projectcontinuum', external: true },
   { label: 'Core Repo', href: 'https://github.com/projectcontinuum/continuum-platform-core', external: true },
   { label: 'Feature Template', href: 'https://github.com/projectcontinuum/continuum-feature-template', external: true },

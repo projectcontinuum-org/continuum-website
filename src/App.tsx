@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { label: 'Demos', href: '#see-it' },
   { label: 'Ecosystem', href: '#ecosystem' },
   { label: 'Roadmap', href: '#contribute' },
+  { label: 'Docs', href: 'https://docs.projectcontinuum.org', external: true },
 ] as const;
 
 const GITHUB_ORG_HREF = 'https://github.com/projectcontinuum';
@@ -54,6 +55,7 @@ function Header() {
             <a
               key={link.href}
               href={link.href}
+              {...('external' in link && link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
               className="text-sm text-fg-muted transition-colors hover:text-fg"
             >
               {link.label}
@@ -145,6 +147,7 @@ function Header() {
                 <a
                   key={link.href}
                   href={link.href}
+                  {...('external' in link && link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                   onClick={() => setIsMenuOpen(false)}
                   className="text-sm text-fg-muted transition-colors hover:text-fg"
                 >
