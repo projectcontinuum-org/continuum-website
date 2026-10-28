@@ -47,10 +47,10 @@ const TECH_STACK: TechBadge[] = [
 
 const FOOTER_LINKS = [
   { label: 'Docs', href: 'https://docs.projectcontinuum.org', external: true },
-  { label: 'GitHub Org', href: 'https://github.com/projectcontinuum', external: true },
-  { label: 'Core Repo', href: 'https://github.com/projectcontinuum/continuum-platform-core', external: true },
-  { label: 'Feature Template', href: 'https://github.com/projectcontinuum/continuum-feature-template', external: true },
-  { label: 'Issues', href: 'https://github.com/projectcontinuum/continuum-platform-core/issues', external: true },
+  { label: 'GitHub Org', href: 'https://github.com/projectcontinuum-org', external: true },
+  { label: 'Core Repo', href: 'https://github.com/projectcontinuum-org/continuum-platform-core', external: true },
+  { label: 'Feature Template', href: 'https://github.com/projectcontinuum-org/continuum-feature-template', external: true },
+  { label: 'Issues', href: 'https://github.com/projectcontinuum-org/continuum-platform-core/issues', external: true },
 ] as const;
 
 export default function Footer() {

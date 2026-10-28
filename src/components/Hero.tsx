@@ -3,8 +3,8 @@ import { motion, useReducedMotion } from 'framer-motion';
 
 const DIAGRAM_SCALE = 1.9; // scale multiplier: 1.0 = base, 1.5 = 50% bigger
 
-const CTA_HREF = 'https://github.com/projectcontinuum/continuum-platform-core';
-const TEMPLATE_HREF = 'https://github.com/projectcontinuum/continuum-feature-template';
+const CTA_HREF = 'https://github.com/projectcontinuum-org/continuum-platform-core';
+const TEMPLATE_HREF = 'https://github.com/projectcontinuum-org/continuum-feature-template';
 
 /* ── Layout constants ── */
 const NW = 44;  // workflow node width
