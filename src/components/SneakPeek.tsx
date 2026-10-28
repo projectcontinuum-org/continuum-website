@@ -4,31 +4,31 @@ const REPOS = [
   {
     name: 'continuum-platform-core',
     description: 'Core backend — API server, worker framework, shared Parquet/S3 libraries',
-    href: 'https://github.com/projectcontinuum/continuum-platform-core',
+    href: 'https://github.com/projectcontinuum-org/continuum-platform-core',
     tags: ['Kotlin', 'Spring Boot', 'Temporal'],
   },
   {
     name: 'continuum-workbench',
     description: 'Browser IDE — Eclipse Theia + React Flow drag-and-drop workflow editor',
-    href: 'https://github.com/projectcontinuum/continuum-workbench',
+    href: 'https://github.com/projectcontinuum-org/continuum-workbench',
     tags: ['React', 'TypeScript', 'Theia'],
   },
   {
     name: 'continuum-feature-base',
     description: '16 analytics nodes — transforms, REST client, Kotlin scripting, anomaly detection',
-    href: 'https://github.com/projectcontinuum/continuum-feature-base',
+    href: 'https://github.com/projectcontinuum-org/continuum-feature-base',
     tags: ['16 Nodes', 'Kotlin'],
   },
   {
     name: 'continuum-feature-ai',
     description: 'LLM fine-tuning with Unsloth + LoRA. Inference and evaluation nodes coming soon',
-    href: 'https://github.com/projectcontinuum/continuum-feature-ai',
+    href: 'https://github.com/projectcontinuum-org/continuum-feature-ai',
     tags: ['Unsloth', 'Python', 'LoRA'],
   },
   {
     name: 'continuum-feature-template',
     description: 'Scaffold your own worker with custom nodes. Fork, rename, and start building',
-    href: 'https://github.com/projectcontinuum/continuum-feature-template',
+    href: 'https://github.com/projectcontinuum-org/continuum-feature-template',
     tags: ['Template', 'Start Here'],
   },
 ] as const;
@@ -161,7 +161,7 @@ export default function SneakPeek() {
             transition={{ duration: reducedMotion ? 0 : 0.6 }}
           >
             <motion.a
-              href="https://github.com/projectcontinuum/continuum-feature-template"
+              href="https://github.com/projectcontinuum-org/continuum-feature-template"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

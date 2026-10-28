@@ -15,7 +15,7 @@ const NAV_LINKS = [
   { label: 'Docs', href: 'https://docs.projectcontinuum.org', external: true },
 ] as const;
 
-const GITHUB_ORG_HREF = 'https://github.com/projectcontinuum';
+const GITHUB_ORG_HREF = 'https://github.com/projectcontinuum-org';
 
 function useTheme() {
   const [isDark, setIsDark] = useState(
